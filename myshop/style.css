@@ -201,7 +201,7 @@ h1 {
 }
 
 .service > .contents2 >h2{
-    margin-bottom: 27;
+    margin-bottom: 10;
 }
 
 /* main_text2 */
@@ -235,6 +235,8 @@ h1 {
     margin: 16px auto;
 }
 
+/* footer */
+
 footer{
     display: flex;
     background: #1f1f1f;
@@ -246,7 +248,14 @@ footer > div:first-child{
     color: #fff;
 }
 
+.ceo{
+    text-align: left;
+    font-size: 12px;
+    color: #fff;
+    margin: 30px auto 10px 30px;
+}
+
 footer > div:last-child{
     flex: 9;
-    color: #fff;
+    color: #fff;    
 }
