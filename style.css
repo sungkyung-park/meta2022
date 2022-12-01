@@ -80,7 +80,7 @@ footer .footer-info {
 }
 
 .container {
-  display: grid; 
+  display: grid; /*그리드 설정*/
   grid-template-areas:
     "header header"
     "content content"
@@ -135,7 +135,7 @@ footer .footer-info {
 .bg h1 {
   font-size: 3.5em;
   text-align: center;
-  padding-top: 20%;
+  padding-top: 30%;
   letter-spacing: 3px;
   color: #fff;
 }
