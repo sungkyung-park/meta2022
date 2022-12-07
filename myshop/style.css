@@ -34,7 +34,7 @@ h1 {
 }
 
 .intro_bg{
-    background-image: url("https://github.com/sungkyung-park/meta2022/blob/main/myshop/img/intro.png?raw=true");
+    background-image: url("https://media.cntraveler.com/photos/5b72ec79890b740fb9121fd9/16:9/w_1280,c_limit/Melbounre_GettyImages-752151085.jpg");
     width:100%;
     height:718px;
 }
@@ -116,6 +116,7 @@ h1 {
 .intro_text > h1,
 .intro_text > h4{
     color: #fff;
+    text-shadow: 6px 2px 2px #1f1f1f;
 }
 
 /* main_text0*/
@@ -193,11 +194,16 @@ h1 {
     width: 1280px;
     display: flex;
     margin: 49px auto;
-    height: 427px;
+    height: 227px;
+}
+
+.service > .main_logo{
+    margin: auto;
 }
 
 .service > .contents2{
-    padding: 20px;
+    padding: 5px;
+    margin: auto;
 }
 
 .service > .contents2 >h2{
@@ -208,7 +214,7 @@ h1 {
 .main_text2{
     width: 100%;
     height: 418px;
-    background-image: url("https://raw.githubusercontent.com/sungkyung-park/meta2022/5bd0b07ec49ccc03313907e870207b723f52b61e/myshop/img/contact.png");
+    background-image: url("https://www.ignaciolibrary.org/wp-content/uploads/2018/10/Contact-us_topbanner_cropped.jpg");
 }
 
 .main_text2 > ul{
@@ -223,17 +229,17 @@ h1 {
 
 .main_text2 > ul > li > div > h1,
 .main_text2 > ul > li > div{
-    color: #fff;
+    color: #000;
 }
 
 .more2{
     width: 220px;
     height: 40px;
-    border: 1px solid #fff;
+    border: 1px solid #000;
     cursor: pointer;
     line-height: 40px;
     margin: 16px auto;
-    color:#fff;
+    color:#000;
 }
 
 /* footer */
