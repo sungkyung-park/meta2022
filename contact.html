@@ -31,14 +31,18 @@
       <section>
           <div class="contact-wrapper">
             <h1>Contact</h1>
-            <div class="form-div">
-              <form id="contact-form">
+            <div class="form-div" form id="contact-form">
+              <form method="post" action="https://script.google.com/macros/s/AKfycbwepcd32wBenNExhNfI-P0-Q4cL4gN6nweTjxcTQyln-9vb6yi_mDBhHVqiXz2oo-KG/exec" class="mt-5 form-contact slideanim">
                   <input type="text" name="name" id="name" placeholder="이름"/><br />
                   <input type="text" name="e-mail" id="e-mail" placeholder="이메일" /><br />
                   <input type="text" name="title" id="title" placeholder="제목" /><br />
                   <textarea name="content" rows="8" cols="35" placeholder="보낼 내용을 여기에 입력하세요."></textarea><br />
                   <input type="submit" name="submit" id="submit" value="전송" />
+                  <div style="display:none" class="thankyou_message">
+                    <h2><em>Thanks</em> for contacting us! We will get back to you soon! </h2>
+                  </div>
               </form>
+              <script data-cfasync="false" type="text/javascript"src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>  
             </div>
           </div>
       </section>
